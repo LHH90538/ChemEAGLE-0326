@@ -1314,9 +1314,7 @@ def process_reaction_image_with_product_variant_R_group_OS(
     model_name: str = "/models/Qwen3-VL-32B-Instruct-AWQ",
     base_url: Optional[str] = "http://localhost:8000/v1",
     api_key: Optional[str] = None,
-    # model_name="gemini-2.5-flash",
-    # base_url="https://generativelanguage.googleapis.com/v1beta/openai/", 
-    # api_key="AIzaSyBL8j4MbHAPhq8cR4Y05o9tY5Zq6fMDU3g"  
+
 ) -> dict:
     """
     与 process_reaction_image_with_product_variant_R_group 流程保持一致，但改用兼容 OpenAI Chat Completions 协议的本地/自建模型（如 vLLM 或 Ollama）。
@@ -1847,9 +1845,7 @@ def process_reaction_image_with_table_R_group_OS(
     model_name: str = "/models/Qwen3-VL-32B-Instruct-AWQ",
     base_url: Optional[str] = "http://localhost:8000/v1",
     api_key: Optional[str] = None,
-    # model_name="gemini-2.5-flash",
-    # base_url="https://generativelanguage.googleapis.com/v1beta/openai/", 
-    # api_key="AIzaSyBL8j4MbHAPhq8cR4Y05o9tY5Zq6fMDU3g"  
+
 ) -> dict:
     """
     与 process_reaction_image_with_table_R_group 流程保持一致，但改用兼容 OpenAI Chat Completions 协议的本地/自建模型（如 vLLM 或 Ollama）。
